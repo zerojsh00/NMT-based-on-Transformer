@@ -24,7 +24,7 @@ numpy
 
 # References
 
-* origin https://github.com/simonjisu/annotated-transformer-kr
+* origin : https://github.com/simonjisu/annotated-transformer-kr
 * paper : https://arxiv.org/abs/1706.03762
 * reference blog: http://nlp.seas.harvard.edu/2018/04/03/attention.html
 * reference code: https://github.com/jadore801120/attention-is-all-you-need-pytorch
