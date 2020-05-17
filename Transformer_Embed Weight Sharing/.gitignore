@@ -1,0 +1,7 @@
+__pycache__
+.ipynb_checkpoints
+data
+saved_model
+notebook/*
+*.pt
+.vector_cache/*

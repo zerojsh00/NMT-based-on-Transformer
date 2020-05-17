@@ -1,0 +1,402 @@
+3.6.8 |Anaconda, Inc.| (default, Feb 21 2019, 18:30:04) [MSC v.1916 64 bit (AMD64)]
+Using cuda
+Loading Data...
+set up fields ... done
+SRC vocab 28526, TRG vocab 28526
+Building Model...
+Load Model ./saved_model/model-koen.pt
+Start Training...
+[1/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4782818.0000	 valid_n correct: 223951.0000	 test_n correct: 220243.0000
+  - train_acc: 77.3355%	 valid_acc: 69.0046%	 test_acc: 63.9741%
+  - train_ppl:   2.1319	 valid_ppl:   3.8217	 test_ppl:   5.1650
+[2/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4508788.0000	 valid_n correct: 219919.0000	 test_n correct: 216105.0000
+  - train_acc: 72.9046%	 valid_acc: 67.7623%	 test_acc: 62.7721%
+  - train_ppl:   2.6043	 valid_ppl:   4.1370	 test_ppl:   5.6233
+  - discard previous state, best model state saved!
+[3/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4354549.0000	 valid_n correct: 220842.0000	 test_n correct: 217877.0000
+  - train_acc: 70.4106%	 valid_acc: 68.0466%	 test_acc: 63.2868%
+  - train_ppl:   2.9440	 valid_ppl:   3.9017	 test_ppl:   5.1897
+  - discard previous state, best model state saved!
+[4/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4411876.0000	 valid_n correct: 222042.0000	 test_n correct: 218361.0000
+  - train_acc: 71.3376%	 valid_acc: 68.4164%	 test_acc: 63.4274%
+  - train_ppl:   2.8015	 valid_ppl:   3.8569	 test_ppl:   5.1893
+  - discard previous state, best model state saved!
+[5/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4464678.0000	 valid_n correct: 222430.0000	 test_n correct: 219658.0000
+  - train_acc: 72.1913%	 valid_acc: 68.5360%	 test_acc: 63.8042%
+  - train_ppl:   2.6832	 valid_ppl:   3.7751	 test_ppl:   5.0760
+  - discard previous state, best model state saved!
+[6/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4504242.0000	 valid_n correct: 222948.0000	 test_n correct: 220230.0000
+  - train_acc: 72.8311%	 valid_acc: 68.6956%	 test_acc: 63.9703%
+  - train_ppl:   2.5997	 valid_ppl:   3.7383	 test_ppl:   4.9375
+  - discard previous state, best model state saved!
+[7/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4539597.0000	 valid_n correct: 223849.0000	 test_n correct: 220412.0000
+  - train_acc: 73.4027%	 valid_acc: 68.9732%	 test_acc: 64.0232%
+  - train_ppl:   2.5323	 valid_ppl:   3.6991	 test_ppl:   4.9928
+  - discard previous state, best model state saved!
+[8/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4568821.0000	 valid_n correct: 224371.0000	 test_n correct: 220997.0000
+  - train_acc: 73.8753%	 valid_acc: 69.1340%	 test_acc: 64.1931%
+  - train_ppl:   2.4763	 valid_ppl:   3.6785	 test_ppl:   4.9469
+  - discard previous state, best model state saved!
+[9/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4595207.0000	 valid_n correct: 224760.0000	 test_n correct: 221692.0000
+  - train_acc: 74.3019%	 valid_acc: 69.2539%	 test_acc: 64.3950%
+  - train_ppl:   2.4301	 valid_ppl:   3.6409	 test_ppl:   4.8866
+  - discard previous state, best model state saved!
+[10/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4617911.0000	 valid_n correct: 225038.0000	 test_n correct: 221672.0000
+  - train_acc: 74.6690%	 valid_acc: 69.3395%	 test_acc: 64.3892%
+  - train_ppl:   2.3891	 valid_ppl:   3.6518	 test_ppl:   4.9497
+  - discard previous state, best model state saved!
+[11/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4638981.0000	 valid_n correct: 224788.0000	 test_n correct: 221192.0000
+  - train_acc: 75.0097%	 valid_acc: 69.2625%	 test_acc: 64.2498%
+  - train_ppl:   2.3525	 valid_ppl:   3.6521	 test_ppl:   4.9360
+[12/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4657373.0000	 valid_n correct: 225175.0000	 test_n correct: 221884.0000
+  - train_acc: 75.3071%	 valid_acc: 69.3817%	 test_acc: 64.4508%
+  - train_ppl:   2.3217	 valid_ppl:   3.6508	 test_ppl:   4.9029
+  - discard previous state, best model state saved!
+[13/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4676542.0000	 valid_n correct: 225352.0000	 test_n correct: 222199.0000
+  - train_acc: 75.6171%	 valid_acc: 69.4363%	 test_acc: 64.5423%
+  - train_ppl:   2.2922	 valid_ppl:   3.6480	 test_ppl:   4.9234
+  - discard previous state, best model state saved!
+[14/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4690666.0000	 valid_n correct: 225481.0000	 test_n correct: 221871.0000
+  - train_acc: 75.8454%	 valid_acc: 69.4760%	 test_acc: 64.4470%
+  - train_ppl:   2.2684	 valid_ppl:   3.6413	 test_ppl:   4.9193
+  - discard previous state, best model state saved!
+[15/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4705599.0000	 valid_n correct: 225382.0000	 test_n correct: 221826.0000
+  - train_acc: 76.0869%	 valid_acc: 69.4455%	 test_acc: 64.4339%
+  - train_ppl:   2.2439	 valid_ppl:   3.6627	 test_ppl:   4.9342
+[16/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4719266.0000	 valid_n correct: 225625.0000	 test_n correct: 222206.0000
+  - train_acc: 76.3079%	 valid_acc: 69.5204%	 test_acc: 64.5443%
+  - train_ppl:   2.2230	 valid_ppl:   3.6460	 test_ppl:   4.9571
+  - discard previous state, best model state saved!
+[17/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4731253.0000	 valid_n correct: 225625.0000	 test_n correct: 222398.0000
+  - train_acc: 76.5017%	 valid_acc: 69.5204%	 test_acc: 64.6001%
+  - train_ppl:   2.2040	 valid_ppl:   3.6560	 test_ppl:   4.9726
+  - discard previous state, best model state saved!
+[18/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4745847.0000	 valid_n correct: 225901.0000	 test_n correct: 222565.0000
+  - train_acc: 76.7377%	 valid_acc: 69.6054%	 test_acc: 64.6486%
+  - train_ppl:   2.1858	 valid_ppl:   3.6507	 test_ppl:   4.9409
+  - discard previous state, best model state saved!
+[19/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4756280.0000	 valid_n correct: 225822.0000	 test_n correct: 222682.0000
+  - train_acc: 76.9064%	 valid_acc: 69.5811%	 test_acc: 64.6826%
+  - train_ppl:   2.1696	 valid_ppl:   3.6665	 test_ppl:   4.9406
+[20/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4766741.0000	 valid_n correct: 226199.0000	 test_n correct: 222704.0000
+  - train_acc: 77.0755%	 valid_acc: 69.6973%	 test_acc: 64.6889%
+  - train_ppl:   2.1543	 valid_ppl:   3.6567	 test_ppl:   4.9526
+  - discard previous state, best model state saved!
+[21/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4776968.0000	 valid_n correct: 225785.0000	 test_n correct: 222508.0000
+  - train_acc: 77.2409%	 valid_acc: 69.5697%	 test_acc: 64.6320%
+  - train_ppl:   2.1391	 valid_ppl:   3.6930	 test_ppl:   4.9917
+[22/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4784474.0000	 valid_n correct: 226071.0000	 test_n correct: 222769.0000
+  - train_acc: 77.3623%	 valid_acc: 69.6578%	 test_acc: 64.7078%
+  - train_ppl:   2.1264	 valid_ppl:   3.6769	 test_ppl:   4.9647
+[23/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4794065.0000	 valid_n correct: 226110.0000	 test_n correct: 223112.0000
+  - train_acc: 77.5173%	 valid_acc: 69.6698%	 test_acc: 64.8075%
+  - train_ppl:   2.1135	 valid_ppl:   3.6749	 test_ppl:   4.9843
+[24/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4803615.0000	 valid_n correct: 225892.0000	 test_n correct: 222416.0000
+  - train_acc: 77.6718%	 valid_acc: 69.6027%	 test_acc: 64.6053%
+  - train_ppl:   2.1005	 valid_ppl:   3.7192	 test_ppl:   5.0583
+[25/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4811631.0000	 valid_n correct: 226213.0000	 test_n correct: 222664.0000
+  - train_acc: 77.8014%	 valid_acc: 69.7016%	 test_acc: 64.6773%
+  - train_ppl:   2.0897	 valid_ppl:   3.6843	 test_ppl:   5.0216
+  - discard previous state, best model state saved!
+[26/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4819747.0000	 valid_n correct: 225841.0000	 test_n correct: 222792.0000
+  - train_acc: 77.9326%	 valid_acc: 69.5870%	 test_acc: 64.7145%
+  - train_ppl:   2.0783	 valid_ppl:   3.6979	 test_ppl:   4.9762
+[27/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4827694.0000	 valid_n correct: 226356.0000	 test_n correct: 222937.0000
+  - train_acc: 78.0611%	 valid_acc: 69.7456%	 test_acc: 64.7566%
+  - train_ppl:   2.0681	 valid_ppl:   3.6896	 test_ppl:   5.0105
+  - discard previous state, best model state saved!
+[28/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4834143.0000	 valid_n correct: 226178.0000	 test_n correct: 222586.0000
+  - train_acc: 78.1654%	 valid_acc: 69.6908%	 test_acc: 64.6547%
+  - train_ppl:   2.0583	 valid_ppl:   3.7153	 test_ppl:   5.0808
+[29/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4842260.0000	 valid_n correct: 225911.0000	 test_n correct: 222894.0000
+  - train_acc: 78.2966%	 valid_acc: 69.6085%	 test_acc: 64.7441%
+  - train_ppl:   2.0471	 valid_ppl:   3.7338	 test_ppl:   5.0497
+[30/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4849091.0000	 valid_n correct: 226188.0000	 test_n correct: 222474.0000
+  - train_acc: 78.4071%	 valid_acc: 69.6939%	 test_acc: 64.6221%
+  - train_ppl:   2.0403	 valid_ppl:   3.6967	 test_ppl:   5.0584
+[31/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4855645.0000	 valid_n correct: 226179.0000	 test_n correct: 223092.0000
+  - train_acc: 78.5130%	 valid_acc: 69.6911%	 test_acc: 64.8017%
+  - train_ppl:   2.0311	 valid_ppl:   3.7334	 test_ppl:   5.0837
+[32/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4862306.0000	 valid_n correct: 226180.0000	 test_n correct: 222864.0000
+  - train_acc: 78.6208%	 valid_acc: 69.6914%	 test_acc: 64.7354%
+  - train_ppl:   2.0238	 valid_ppl:   3.7273	 test_ppl:   5.0635
+[33/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4868590.0000	 valid_n correct: 225991.0000	 test_n correct: 222910.0000
+  - train_acc: 78.7224%	 valid_acc: 69.6332%	 test_acc: 64.7488%
+  - train_ppl:   2.0141	 valid_ppl:   3.7370	 test_ppl:   5.0531
+[34/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4874922.0000	 valid_n correct: 226107.0000	 test_n correct: 222450.0000
+  - train_acc: 78.8247%	 valid_acc: 69.6689%	 test_acc: 64.6152%
+  - train_ppl:   2.0074	 valid_ppl:   3.7377	 test_ppl:   5.1392
+[35/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4879117.0000	 valid_n correct: 225994.0000	 test_n correct: 223035.0000
+  - train_acc: 78.8926%	 valid_acc: 69.6341%	 test_acc: 64.7851%
+  - train_ppl:   2.0012	 valid_ppl:   3.7322	 test_ppl:   5.0855
+[36/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4885550.0000	 valid_n correct: 226133.0000	 test_n correct: 222660.0000
+  - train_acc: 78.9966%	 valid_acc: 69.6769%	 test_acc: 64.6762%
+  - train_ppl:   1.9931	 valid_ppl:   3.7445	 test_ppl:   5.1335
+[37/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4890241.0000	 valid_n correct: 225964.0000	 test_n correct: 222603.0000
+  - train_acc: 79.0724%	 valid_acc: 69.6249%	 test_acc: 64.6596%
+  - train_ppl:   1.9866	 valid_ppl:   3.7599	 test_ppl:   5.1394
+[38/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4896429.0000	 valid_n correct: 225867.0000	 test_n correct: 222737.0000
+  - train_acc: 79.1725%	 valid_acc: 69.5950%	 test_acc: 64.6985%
+  - train_ppl:   1.9805	 valid_ppl:   3.7428	 test_ppl:   5.1104
+[39/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4900518.0000	 valid_n correct: 225886.0000	 test_n correct: 223106.0000
+  - train_acc: 79.2386%	 valid_acc: 69.6008%	 test_acc: 64.8057%
+  - train_ppl:   1.9732	 valid_ppl:   3.7777	 test_ppl:   5.1136
+[40/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4906115.0000	 valid_n correct: 225993.0000	 test_n correct: 222893.0000
+  - train_acc: 79.3291%	 valid_acc: 69.6338%	 test_acc: 64.7438%
+  - train_ppl:   1.9675	 valid_ppl:   3.7671	 test_ppl:   5.1381
+[41/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4912013.0000	 valid_n correct: 226096.0000	 test_n correct: 222798.0000
+  - train_acc: 79.4245%	 valid_acc: 69.6655%	 test_acc: 64.7163%
+  - train_ppl:   1.9620	 valid_ppl:   3.7761	 test_ppl:   5.1279
+[42/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4915773.0000	 valid_n correct: 226028.0000	 test_n correct: 222110.0000
+  - train_acc: 79.4853%	 valid_acc: 69.6446%	 test_acc: 64.5164%
+  - train_ppl:   1.9563	 valid_ppl:   3.7911	 test_ppl:   5.2432
+[43/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4919852.0000	 valid_n correct: 226066.0000	 test_n correct: 222467.0000
+  - train_acc: 79.5512%	 valid_acc: 69.6563%	 test_acc: 64.6201%
+  - train_ppl:   1.9504	 valid_ppl:   3.7691	 test_ppl:   5.1877
+[44/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4925170.0000	 valid_n correct: 226246.0000	 test_n correct: 222866.0000
+  - train_acc: 79.6372%	 valid_acc: 69.7118%	 test_acc: 64.7360%
+  - train_ppl:   1.9453	 valid_ppl:   3.7903	 test_ppl:   5.1736
+[45/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4928629.0000	 valid_n correct: 226178.0000	 test_n correct: 222743.0000
+  - train_acc: 79.6932%	 valid_acc: 69.6908%	 test_acc: 64.7003%
+  - train_ppl:   1.9410	 valid_ppl:   3.7869	 test_ppl:   5.1955
+[46/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4932745.0000	 valid_n correct: 226215.0000	 test_n correct: 222488.0000
+  - train_acc: 79.7597%	 valid_acc: 69.7022%	 test_acc: 64.6262%
+  - train_ppl:   1.9355	 valid_ppl:   3.7992	 test_ppl:   5.2116
+[47/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4937290.0000	 valid_n correct: 226078.0000	 test_n correct: 222756.0000
+  - train_acc: 79.8332%	 valid_acc: 69.6600%	 test_acc: 64.7041%
+  - train_ppl:   1.9315	 valid_ppl:   3.8132	 test_ppl:   5.2004
+[48/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4941230.0000	 valid_n correct: 226001.0000	 test_n correct: 222741.0000
+  - train_acc: 79.8969%	 valid_acc: 69.6363%	 test_acc: 64.6997%
+  - train_ppl:   1.9256	 valid_ppl:   3.8201	 test_ppl:   5.2381
+[49/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4945079.0000	 valid_n correct: 226349.0000	 test_n correct: 222718.0000
+  - train_acc: 79.9591%	 valid_acc: 69.7435%	 test_acc: 64.6930%
+  - train_ppl:   1.9208	 valid_ppl:   3.8175	 test_ppl:   5.2201
+[50/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4950327.0000	 valid_n correct: 226158.0000	 test_n correct: 223170.0000
+  - train_acc: 80.0440%	 valid_acc: 69.6846%	 test_acc: 64.8243%
+  - train_ppl:   1.9159	 valid_ppl:   3.8224	 test_ppl:   5.2014
+[51/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4953910.0000	 valid_n correct: 226183.0000	 test_n correct: 222751.0000
+  - train_acc: 80.1019%	 valid_acc: 69.6923%	 test_acc: 64.7026%
+  - train_ppl:   1.9105	 valid_ppl:   3.8058	 test_ppl:   5.2179
+[52/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4955870.0000	 valid_n correct: 226620.0000	 test_n correct: 223313.0000
+  - train_acc: 80.1336%	 valid_acc: 69.8270%	 test_acc: 64.8658%
+  - train_ppl:   1.9086	 valid_ppl:   3.8131	 test_ppl:   5.1896
+  - discard previous state, best model state saved!
+[53/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4961533.0000	 valid_n correct: 226120.0000	 test_n correct: 222834.0000
+  - train_acc: 80.2252%	 valid_acc: 69.6729%	 test_acc: 64.7267%
+  - train_ppl:   1.9036	 valid_ppl:   3.8176	 test_ppl:   5.2311
+[54/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4964168.0000	 valid_n correct: 226117.0000	 test_n correct: 222744.0000
+  - train_acc: 80.2678%	 valid_acc: 69.6720%	 test_acc: 64.7006%
+  - train_ppl:   1.9002	 valid_ppl:   3.8254	 test_ppl:   5.2316
+[55/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4968213.0000	 valid_n correct: 225899.0000	 test_n correct: 222743.0000
+  - train_acc: 80.3332%	 valid_acc: 69.6048%	 test_acc: 64.7003%
+  - train_ppl:   1.8948	 valid_ppl:   3.8583	 test_ppl:   5.2874
+[56/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4970813.0000	 valid_n correct: 225808.0000	 test_n correct: 222538.0000
+  - train_acc: 80.3753%	 valid_acc: 69.5768%	 test_acc: 64.6407%
+  - train_ppl:   1.8913	 valid_ppl:   3.8766	 test_ppl:   5.2967
+[57/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4974504.0000	 valid_n correct: 225988.0000	 test_n correct: 222533.0000
+  - train_acc: 80.4349%	 valid_acc: 69.6323%	 test_acc: 64.6393%
+  - train_ppl:   1.8892	 valid_ppl:   3.8607	 test_ppl:   5.3017
+[58/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4977988.0000	 valid_n correct: 226132.0000	 test_n correct: 222973.0000
+  - train_acc: 80.4913%	 valid_acc: 69.6766%	 test_acc: 64.7671%
+  - train_ppl:   1.8843	 valid_ppl:   3.8780	 test_ppl:   5.2792
+[59/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4982759.0000	 valid_n correct: 225989.0000	 test_n correct: 222544.0000
+  - train_acc: 80.5684%	 valid_acc: 69.6326%	 test_acc: 64.6425%
+  - train_ppl:   1.8800	 valid_ppl:   3.8763	 test_ppl:   5.3163
+[60/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4984445.0000	 valid_n correct: 225727.0000	 test_n correct: 222628.0000
+  - train_acc: 80.5957%	 valid_acc: 69.5518%	 test_acc: 64.6669%
+  - train_ppl:   1.8767	 valid_ppl:   3.8948	 test_ppl:   5.2870
+[61/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4986717.0000	 valid_n correct: 226028.0000	 test_n correct: 222920.0000
+  - train_acc: 80.6324%	 valid_acc: 69.6446%	 test_acc: 64.7517%
+  - train_ppl:   1.8741	 valid_ppl:   3.8648	 test_ppl:   5.2664
+[62/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4990876.0000	 valid_n correct: 225942.0000	 test_n correct: 222878.0000
+  - train_acc: 80.6997%	 valid_acc: 69.6181%	 test_acc: 64.7395%
+  - train_ppl:   1.8703	 valid_ppl:   3.8973	 test_ppl:   5.3295
+[63/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4993667.0000	 valid_n correct: 225824.0000	 test_n correct: 222629.0000
+  - train_acc: 80.7448%	 valid_acc: 69.5817%	 test_acc: 64.6672%
+  - train_ppl:   1.8668	 valid_ppl:   3.8915	 test_ppl:   5.3161
+[64/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4996017.0000	 valid_n correct: 225904.0000	 test_n correct: 223031.0000
+  - train_acc: 80.7828%	 valid_acc: 69.6064%	 test_acc: 64.7839%
+  - train_ppl:   1.8642	 valid_ppl:   3.9055	 test_ppl:   5.2984
+[65/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 4999217.0000	 valid_n correct: 225683.0000	 test_n correct: 222707.0000
+  - train_acc: 80.8345%	 valid_acc: 69.5383%	 test_acc: 64.6898%
+  - train_ppl:   1.8614	 valid_ppl:   3.9059	 test_ppl:   5.3305
+[66/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 5002149.0000	 valid_n correct: 226086.0000	 test_n correct: 222912.0000
+  - train_acc: 80.8819%	 valid_acc: 69.6625%	 test_acc: 64.7494%
+  - train_ppl:   1.8584	 valid_ppl:   3.9046	 test_ppl:   5.3243
+[67/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 5005421.0000	 valid_n correct: 225863.0000	 test_n correct: 222480.0000
+  - train_acc: 80.9348%	 valid_acc: 69.5937%	 test_acc: 64.6239%
+  - train_ppl:   1.8549	 valid_ppl:   3.9121	 test_ppl:   5.3590
+[68/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 5007662.0000	 valid_n correct: 225901.0000	 test_n correct: 222839.0000
+  - train_acc: 80.9711%	 valid_acc: 69.6054%	 test_acc: 64.7282%
+  - train_ppl:   1.8513	 valid_ppl:   3.9204	 test_ppl:   5.3500
+[69/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 5010692.0000	 valid_n correct: 226080.0000	 test_n correct: 222687.0000
+  - train_acc: 81.0201%	 valid_acc: 69.6606%	 test_acc: 64.6840%
+  - train_ppl:   1.8481	 valid_ppl:   3.8961	 test_ppl:   5.3458
+[70/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 5013376.0000	 valid_n correct: 226214.0000	 test_n correct: 223115.0000
+  - train_acc: 81.0635%	 valid_acc: 69.7019%	 test_acc: 64.8083%
+  - train_ppl:   1.8460	 valid_ppl:   3.8933	 test_ppl:   5.3705
+[71/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 5015636.0000	 valid_n correct: 225970.0000	 test_n correct: 222832.0000
+  - train_acc: 81.1000%	 valid_acc: 69.6267%	 test_acc: 64.7261%
+  - train_ppl:   1.8437	 valid_ppl:   3.9061	 test_ppl:   5.3498
+[72/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 5018661.0000	 valid_n correct: 225777.0000	 test_n correct: 222794.0000
+  - train_acc: 81.1489%	 valid_acc: 69.5672%	 test_acc: 64.7151%
+  - train_ppl:   1.8400	 valid_ppl:   3.9196	 test_ppl:   5.3801
+[73/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 5021222.0000	 valid_n correct: 226055.0000	 test_n correct: 222712.0000
+  - train_acc: 81.1903%	 valid_acc: 69.6529%	 test_acc: 64.6913%
+  - train_ppl:   1.8373	 valid_ppl:   3.9230	 test_ppl:   5.3889
+[74/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 5023188.0000	 valid_n correct: 226186.0000	 test_n correct: 222562.0000
+  - train_acc: 81.2221%	 valid_acc: 69.6933%	 test_acc: 64.6477%
+  - train_ppl:   1.8352	 valid_ppl:   3.9151	 test_ppl:   5.3799
+[75/200] Training Result
+  - train_n word: 6184507.0000	 valid_n word: 324545.0000	 test_n word: 344269.0000
+  - train_n correct: 5027085.0000	 valid_n correct: 225853.0000	 test_n correct: 222629.0000
+  - train_acc: 81.2851%	 valid_acc: 69.5907%	 test_acc: 64.6672%
+  - train_ppl:   1.8312	 valid_ppl:   3.9356	 test_ppl:   5.4055

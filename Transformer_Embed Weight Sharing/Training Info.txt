@@ -1,0 +1,9 @@
+python main.py     -rt "./data/korean-parallel-corpora/koen"     -dt "koen"     -maxlen 120     -minfreq 5     -nl 4     -nh 6     -dm 512     -dk 64     -dv 64     -pad 1     -decsos 2     -deceos 3     -pospad 0     -drop 0.3     -ews     -eps 0.1     -warm 10000     -b1 0.9     -b2 0.98     -bt 40     -step 200     -cuda     -vb 1     -met "acc"     -load "./saved_model/model-koen.pt"     -svp "./saved_model/model-koen.pt"     > trainlog/train-koen.log &
+
+batch : 40
+layer : 4
+heads : 6
+warm : 10000
+drop : 0.3
+
+load-model 
