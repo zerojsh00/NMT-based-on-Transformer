@@ -1,0 +1,26 @@
+python main.py \
+    -rt "./data/korean-parallel-corpora/koen" \
+    -dt "koen" \
+    -maxlen 120 \
+    -minfreq 10 \
+    -nl 5 \
+    -nh 6 \
+    -dm 512 \
+    -dk 64 \
+    -dv 64 \
+    -pad 1 \
+    -decsos 2 \
+    -deceos 3 \
+    -pospad 0 \
+    -drop 0.3 \
+    -eps 0.1 \
+    -warm 100000 \
+    -b1 0.9 \
+    -b2 0.98 \
+    -bt 50 \
+    -step 400 \
+    -cuda \
+    -vb 1 \
+    -met "acc" \
+    -svp "./saved_model/model-koen.pt" \
+    > trainlog/train-koen.log &
